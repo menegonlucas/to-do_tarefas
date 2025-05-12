@@ -1,97 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
-    line-height: 1.6;
-}
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #444;
-}
+    body {
+        font-family: 'Cal Sans', sans-serif;
+        background-color: #8d99ae;
+        color: #003049;
+        line-height: 1.6;
+    }
 
-.form-container {
-    width: 100%;
-}
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #edf2f4;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-.input-group {
-    margin-bottom: 15px;
-}
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #0d3b66;
+    }
 
-.input-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
+    .form-container {
+        width: 100%;
+    }
 
-.input-group input,
-.input-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    .input-group {
+        margin-bottom: 15px;
+    }
 
-.btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
+    .input-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
 
-.btn:hover {
-    background-color: #0056b3;
-}
+    .input-group input,
+    .input-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
 
-.tasks-board {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #0d3b66;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
 
-.task-column {
-    flex: 1;
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    .btn:hover {
+        background-color: #669bbc;
+    }
 
-.task-column h2 {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #007bff;
-}
+    .tasks-board {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
 
-.task-card {
-    background: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    .task-column {
+        flex: 1;
+        background: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-.task-card p {
-    margin-bottom: 5px;
-}
+    .task-column h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #007bff;
+    }
+
+    .task-card {
+        background: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .task-card p {
+        margin-bottom: 5px;
+    }
