@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <link rel="stylesheet" href="register-task.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Cadastro de Tarefas</h1>
+            <form id="taskForm">
+                <div class="input-group">
+                    <label for="description">Descrição</label>
+                    <input type="text" id="description" name="description" placeholder="Descreva a tarefa" required>
+                </div>
+                <div class="input-group">
+                    <label for="sector">Setor</label>
+                    <input type="text" id="sector" name="sector" placeholder="Nome do setor" required>
+                </div>
+                <div class="input-group">
+                    <label for="priority">Prioridade</label>
+                    <select id="priority" name="priority" required>
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="userId">Usuário</label>
+                    <select id="userId" name="userId" required>
+                        <!-- Usuários serão carregados dinamicamente -->
+                    </select>
+                </div>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+            <p id="successMessage" style="display: none; color: green; text-align: center; margin-top: 10px;">
+                Tarefa cadastrada com sucesso
+            </p>
+        </div>
+    </div>
+    <script src="add-task.js"></script>
+</body>
+
+</html>
